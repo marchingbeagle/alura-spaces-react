@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+footer {
+  padding: 1rem;
+  background-color: $azul-rodape;
+  border-bottom: 5px solid $azul-claro;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: $fonte-normal;
+  position: sticky;
+  bottom: 0;
+}
+
+.socialList {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2.2rem;
+
+  &__imagem {
+    width: 1.5rem;
+  }
+
+  &__madeBy {
+    color: $cor-do-texto;
+  }
+}
