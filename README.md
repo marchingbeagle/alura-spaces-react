@@ -1,5 +1,7 @@
 # Alura Spaces
 
+Project running on Vercel [here](https://alura-spaces-react.vercel.app/)
+
 In the project directory, you can run:
 
 ### `npm start`
